@@ -14,6 +14,7 @@
 	require_once 'blocks/header.php'
 	 ?>
 	<div id="wrapper">
+    <h3><p style="text-align:center">Зона Админки</p></h3>
 		<div id="leftCol">
 
 
@@ -26,6 +27,7 @@
     			echo '<br>';
     			echo '<a href="red_stat.php?id='.$news[$i]["id"].'"><strong> '.$news[$i]["name"].'</strong></a>';
     		}
+        
 
     	?>
    	</div>

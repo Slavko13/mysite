@@ -10,8 +10,14 @@
 			<a href="/feedback.php">
 				<div style="margin-right: 3%"> Обратная связь </div> 
 			</a>
+			<a href="/feedback.php">
+				<div style="margin-right: 3%">Наш персонал </div> 
+			</a>
+			<a href="/feedback.php">
+				<div style="margin-right: 3%"> Наши услуги </div> 
+			</a>
 			<a href="stats.php">
-				<div > Статьи о здоровье </div> 
+				<div  style="margin-top: 1%" > Статьи о здоровье </div> 
 			</a>
 		</div>
 		<div id="regAuth">

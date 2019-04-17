@@ -14,10 +14,13 @@
 	    $pr=$mysqli->query("UPDATE news SET name='$name',less_text='$less_text',full_text='$full_text' WHERE id='$id'  "); 
 	   closeDB();  
 		if ($pr==1) 
-			{ echo "Статья добавлена!"; } 
+			{ echo "Статья обновлена!"; } 
 	
 
-
+echo'	
+	<div class="comeback">
+	<a href="../admin/">Вернуться назад</a>
+	</div>'
 
 
 ?>

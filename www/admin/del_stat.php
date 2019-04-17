@@ -2,10 +2,7 @@
 require_once "functions/connect.php";
 
 $result=$_POST['stats'];
-    for($i=0; $i < count($result); $i++)
-    {
-      echo($result[$i] . " ");
-    }
+   
 
 
 	global $mysqli;
@@ -16,4 +13,8 @@ $result=$_POST['stats'];
 	 	} 
 	 closeDB(); 
 	 if ($pr==1) { echo "Статья удалена!"; } 
+	 echo'	
+	<div class="comeback">
+	<a href="../admin/">Вернуться назад</a>
+	</div>'
 ?>

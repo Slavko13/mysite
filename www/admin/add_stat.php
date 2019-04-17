@@ -14,9 +14,14 @@
 	   closeDB();  
 		if ($pr==1) 
 			{ echo "Статья добавлена!"; } 
+	echo'	
+	<div class="comeback">
+	<a href="../admin/">Вернуться назад</a>
+	</div>'
+
+	
 	
 
-
-
-
 ?>
+
+

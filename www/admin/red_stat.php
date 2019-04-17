@@ -46,7 +46,10 @@ print<<<HERE
 HERE;
 
 closeDB();
-
+echo' 
+  <div class="comeback">
+  <a href="../admin/">Вернуться назад</a>
+  </div>'
 ?>
 
 </div>

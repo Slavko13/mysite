@@ -4,17 +4,18 @@
 		<span><img src="/img/Logo.jpg"></span> </a>
 	</div>
 		<div id="menuHead"> 
-			<a href="/about.php">
-			<div style="margin-right: 3%"> О нас </div>
-			 </a>
-			<a href="/feedback.php">
-				<div style="margin-right: 3%"> Обратная связь </div> 
+
+			<div onclick="disp(document.getElementById('new_stat'))" >Добавить статью </div>
+			 
+				<div onclick="disp(document.getElementById('del_stat'))">Удалить статью </div> 
 			</a>
-			<a href="stats.php">
-				<div > Статьи о здоровье </div> 
-			</a>
+				<div onclick="disp(document.getElementById('red_stat'))">Редактировать статью</div>
+				 <div >  Добавить врача</div>
+				 <div > Удалить врача </div>
+				 <div > Редактировать врача </div>
+
 		</div>
-		<div id="regAuth">
-			<a href="/reg.php">Регистрация</a>  | <a href="auth.php">Вход</a>
-		</div>
+
+		
+		
 </header>
