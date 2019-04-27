@@ -33,8 +33,11 @@
 					
 					}
 			?>
+		<p style="float: left;"> Показать все статьи <p>
 		</div>
+		
 	<?php require_once 'blocks/rightCol.php'?>
+
 	</div>
 
 	<?php require_once 'blocks/footer.php' ?>
