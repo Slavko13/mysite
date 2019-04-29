@@ -14,6 +14,24 @@
 			return  $result->fetch_assoc();
 
 	} 
+	function getDoctors ($limit=null, $id=null) {
+		global $mysqli;
+		connectDB();
+		if ($id)
+			$myid = "WHERE `id` = ".$id;
+		if ($limit != null){
+			$result = $mysqli->query("SELECT * FROM `doctors`$myid  LIMIT $limit");	
+		}
+		else {
+			$result = $mysqli->query("SELECT * FROM `doctors`");
+		}
+		closeDB();
+		if (!$id)
+			return resultToArray ($result);
+		else 
+			return  $result->fetch_assoc();
+
+	} 
 
 	function resultToArray ($result) {
 		$array = array ();
